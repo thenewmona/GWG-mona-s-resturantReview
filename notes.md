@@ -50,3 +50,9 @@ the port to 5500 , but make sure that I change it before turning it in
 
   [Google Maps JavaScript API Tutorial - Brad Traversy](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=14s)
   [Google Geocode API & JavaScript Tutorial - Brad Traversy](https://www.youtube.com/watch?v=pRiQeo17u6c)updated
+
+  Finally fixed my repo, got my api key, but maps are not showing
+The restaurants appear in the drop down
+I am getting the following error message 
+`2restaurant_info.js:17 No restaurant id in URL`
+https://github.com/thenewmona/GWG-mona-s-resturantReview
