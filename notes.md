@@ -22,7 +22,7 @@ talked with Linda and she says that since I am using VSC I do not need a python 
 the port to 5500 , but make sure that I change it before turning it in 
 
 `static get DATABASE_URL() {
-   const port = 8000 // Change this to your server port
+   const port = 5500 // Change this to your server port
    return `http://localhost:${port}/data/restaurants.json`;
  }`
 
@@ -51,8 +51,11 @@ the port to 5500 , but make sure that I change it before turning it in
   [Google Maps JavaScript API Tutorial - Brad Traversy](https://www.youtube.com/watch?v=Zxf1mnP5zcw&t=14s)
   [Google Geocode API & JavaScript Tutorial - Brad Traversy](https://www.youtube.com/watch?v=pRiQeo17u6c)updated
 
-  Finally fixed my repo, got my api key, but maps are not showing
+Finally fixed my repo, got my api key, but maps are not showing
 The restaurants appear in the drop down
 I am getting the following error message 
 `2restaurant_info.js:17 No restaurant id in URL`
 https://github.com/thenewmona/GWG-mona-s-resturantReview
+
+finally got rid of the error message, map is showing following this walkthrough 
+[MWS Restaurant Reviews Project](https://alexandroperez.github.io/mws-walkthrough/?1.1.introduction) courtsey of `Jerome Wilson (Jay) FEND`
