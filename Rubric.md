@@ -4,9 +4,9 @@ Restaurant Reviews: FEND project 5
 
 # Responsive Design SPECIFICATIONS
 
-   [] Is the site UI compatible with a range of display sizes?
+   [x] Is the site UI compatible with a range of display sizes?
 
-   [] All content is responsive and displays on a range of display sizes.
+   [x] All content is responsive and displays on a range of display sizes.
 
    [] Content should make use of available screen real estate and should display correctly at all screen sizes.
 

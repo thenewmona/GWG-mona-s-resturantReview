@@ -59,3 +59,6 @@ https://github.com/thenewmona/GWG-mona-s-resturantReview
 
 finally got rid of the error message, map is showing following this walkthrough 
 [MWS Restaurant Reviews Project](https://alexandroperez.github.io/mws-walkthrough/?1.1.introduction) courtsey of `Jerome Wilson (Jay) FEND`
+
+10/21/2018
+[list-style-position](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position) - how to style stuff inside a class or div 
