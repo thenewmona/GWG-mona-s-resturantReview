@@ -62,3 +62,9 @@ finally got rid of the error message, map is showing following this walkthrough
 
 10/21/2018
 [list-style-position](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-position) - how to style stuff inside a class or div 
+
+10/24/2018
+still trying to get my media queries to work 
+Think I have figured out the issue 
+
+[What is the difference between “screen” and “only screen” in media queries?](https://stackoverflow.com/questions/8549529/what-is-the-difference-between-screen-and-only-screen-in-media-queries)
