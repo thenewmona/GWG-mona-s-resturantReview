@@ -299,13 +299,26 @@ nav h1 a {
 /* =======================Media Queries============================= */
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 
-/* small screen  */
 
-/* @media (max-width: 375px) {
+
+@media (max-width: 1024px) {
+  nav {
+    background-color:rgb(153, 9, 172);
+  }
+  }
+/* medium screen  */
+@media (max-width: 600px) {
+  nav {
+    background-color:rgb(94, 221, 151);
+  }
+  }
+  
+/* small screen  */
+@media (max-width: 375px) {
   nav {
     background-color:red;
   }
-	} */
+	}
 
 /* #reviews-list li {
   max-width: 80%;
