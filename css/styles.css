@@ -301,7 +301,7 @@ nav h1 a {
 
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) {/*ipad */
   nav {
     background-color:rgb(153, 9, 172);
   }
@@ -314,7 +314,7 @@ nav h1 a {
   }
   
 /* small screen  */
-@media (max-width: 375px) {
+ @media (max-width: 320px) { /*iphone */
   nav {
     background-color:red;
   }
