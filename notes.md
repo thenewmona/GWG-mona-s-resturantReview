@@ -70,3 +70,5 @@ Think I have figured out the issue
 [What is the difference between “screen” and “only screen” in media queries?](https://stackoverflow.com/questions/8549529/what-is-the-difference-between-screen-and-only-screen-in-media-queries)
 
 Got the media queries to finally work , totally forgot about specificity 
+
+10/27/2018 danny helped me with my organization of my files 
