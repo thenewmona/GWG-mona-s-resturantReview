@@ -70,3 +70,22 @@ Think I have figured out the issue
 [What is the difference between “screen” and “only screen” in media queries?](https://stackoverflow.com/questions/8549529/what-is-the-difference-between-screen-and-only-screen-in-media-queries)
 
 Got the media queries to finally work , totally forgot about specificity 
+
+10.27/2018
+10/27/2018
+  working on CSS 
+  https://www.w3schools.com/cssref/pr_font_weight.asp - 
+  500 = defines the thickness of the text 
+  bold = thickness 
+
+  working on accessibility 
+  .skip links 
+  https://support.siteimprove.com/hc/en-gb/articles/115003457351-How-skip-links-can-help-with-website-accessibility
+  https://axesslab.com/skip-links/
+
+  css calc = https://www.w3schools.com/cssref/func_calc.asp
+
+  overflow = https://www.w3schools.com/cssref/pr_pos_overflow.asp
+
+  with Danny's help got my stuff to show again. 
+  I was retrieving from the wrong directory 
