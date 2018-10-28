@@ -71,8 +71,8 @@ Think I have figured out the issue
 
 Got the media queries to finally work , totally forgot about specificity 
 
-10.27/2018
-10/27/2018
+10/27/2018 danny helped me with my organization of my files 
+
   working on CSS 
   https://www.w3schools.com/cssref/pr_font_weight.asp - 
   500 = defines the thickness of the text 
@@ -86,6 +86,3 @@ Got the media queries to finally work , totally forgot about specificity
   css calc = https://www.w3schools.com/cssref/func_calc.asp
 
   overflow = https://www.w3schools.com/cssref/pr_pos_overflow.asp
-
-  with Danny's help got my stuff to show again. 
-  I was retrieving from the wrong directory 
