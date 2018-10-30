@@ -86,3 +86,5 @@ Got the media queries to finally work , totally forgot about specificity
   css calc = https://www.w3schools.com/cssref/func_calc.asp
 
   overflow = https://www.w3schools.com/cssref/pr_pos_overflow.asp
+10/30/2018
+working on aria, responsiveness, and service workers 
