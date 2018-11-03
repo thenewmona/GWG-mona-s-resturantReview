@@ -11,7 +11,7 @@ td,
 th,
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 10pt;
+  font-size: 15pt;
   color: #333;
   line-height: 1.5;
 }
@@ -88,6 +88,20 @@ nav,
 section {
   display: block;
 }
+
+/* https: //www.youtube.com/watch?v=UnEItq289lU&index=5&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7 */
+/* need to create a html for this to work ? where */
+/* Per doug Brown `.skip` links are not needed */
+/* .skip {
+  top: -30px;
+  left: 0;
+  z-index: 125;
+  position: absolute;
+}
+
+.skip:focus {
+  top: 0;
+} */
 
 #maincontent {
   background-color: #f3f3f3;
