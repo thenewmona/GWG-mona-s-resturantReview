@@ -102,10 +102,14 @@ section {
 .skip:focus {
   top: 0;
 } */
-
+/* using vw and vh per Danny, he states that it is easy with the calc function */
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 #footer {

@@ -135,3 +135,7 @@ Also sent to the channel
 thenewmona {FEND}Michigan [< 1 minute ago]
 thanks for the info @Doug Brown [Project Coach] and @Ahmed Abbas
 need to look up Tab Index
+
+11/3/2018
+Added ARIA labels to restaurant.html need to figure out why I have this at the top of my project 
+`<<<<<<< HEAD ======= >>>>>>> 6e91597ebdf43ee51c604eccd0c1264467e97984`
