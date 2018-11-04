@@ -21,8 +21,8 @@ body {
   margin: 0;
   position: relative;
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
+   margin-left: auto;/*per Doug Brown */
+  margin-right: auto;/*per Doug Brown*/
   height: 100%;
   font-size: 15px;
 }
@@ -107,9 +107,9 @@ section {
   background-color: #f3f3f3;
   min-height: 100%;
   width: 100vw;
-  display: flex;
-  flex-direction: column;
   position: relative;
+  display: flex;   
+  flex-direction: column;
 }
 
 #footer {
@@ -128,33 +128,33 @@ nav {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: rgb(6, 59, 94);
+  background-color: rgb(4, 71, 116);
   text-align: center;
 }
 
 nav h1 {
   margin: auto;
-  padding: 25px 20px;
+  padding: 15px 15px;
 }
 
 nav h1 a {
-  color: #fff;
-  font-size: 14pt;
-  font-weight: 200;
-  letter-spacing: 10px;
+  color: rgb(149, 151, 175);
+  font-size: 20pt;/*not sure if I like it that big, need to followup on this . want to change the font on this also */
+  font-weight: 500;
+  letter-spacing: 5px;
   text-transform: uppercase;
 }
 
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
-  background-color: #eee;
-  font-size: 17px;
+  background-color: rgb(178, 188, 216);
+  font-size: 20px;
   font-style: bold;
-  font-weight: 500;
+  font-weight: 700;
   margin: 0;
   width: calc(50% - 80px);
-  /*?need to find out more about this / https://www.w3schools.com/cssref/func_calc.asp */
+  /*?need to find out more about this / https://www.w3schools.com/cssref/func_calc.asp , also need to understand breadcrumb more */
 }
 
 /* Display list items side by side */
@@ -165,20 +165,20 @@ nav h1 a {
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
   padding: 8px;
-  color: black;
+  color: rgb(149, 194, 219);
   content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-  color: #0275d8;
+  color: #03203a;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
-  color: #01447e;
+  color: #041a2c;
   text-decoration: underline;
 }
 
@@ -194,7 +194,7 @@ nav h1 a {
   width: 100%;
   height: auto;
   padding: 15px 0 4px;
-  background-color: #3397DB;
+  background-color: rgb(4, 71, 116);
   align-items: center;
   text-align: center;
 }
@@ -204,7 +204,7 @@ nav h1 a {
 }
 
 .filter-options h2 {
-  color: white;
+  color: rgb(187, 196, 221);
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
@@ -213,7 +213,7 @@ nav h1 a {
 }
 
 .filter-options select {
-  background-color: white;
+  background-color: rgb(198, 205, 230);
   border: 1px solid #fff;
   font-family: Arial, sans-serif;
   font-size: 11pt;
@@ -226,12 +226,13 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  background-color: #f3f3f3;
+  background-color: #a3aa9d;
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -240,8 +241,8 @@ nav h1 a {
 #restaurants-list li {
   display: flex;
   flex-wrap: wrap;
-  background-color: #fff;
-  border: 2px solid #ccc;
+  background-color: rgb(158, 149, 187);
+  border: 2px solid rgb(69, 78, 55);
   font-family: Arial,
     sans-serif;
   font-weight: 500;
@@ -255,21 +256,18 @@ nav h1 a {
 /* display: flex; */
 /* per alexandro walkthrough: use flex, and flex wrap instead of grid, also add to media queries */
 
-#restaurants-list .restaurant-img {
-  background-color: #ccc;
+#restaurants-list .restaurant-img {/*doug brown's walkthrough*/
+  background-color: rgb(216, 238, 196);
   display: block;
-  margin: 0;
-  justify-items: auto;
-  /* follow up with changing this  */
-  max-width: 100%;
-  min-height: 248px;
+  margin: 0;    
+  max-width: 100%;  
   min-width: 100%;
   overflow: hidden;
 }
 
-#restaurants-list li h1 {
-  color: #051364;
-  font-family: Arial, sans-serif;
+#restaurants-list li h1 {/*change font family*/
+  color: #c9d4c5;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 14pt;
   font-weight: 500;
   letter-spacing: 0;
@@ -288,12 +286,12 @@ nav h1 a {
   width: 90%;
 }
 
-#restaurants-list li a {
-  background-color: rgb(53, 95, 172);
-  border-bottom: 3px solid #eee;
-  color: #fff;
+#restaurants-list li a {/*change font style*/
+  background-color: rgb(117, 165, 90);
+  border-bottom: 3px solid rgb(86, 81, 109);
+  color: rgb(24, 29, 24);
   display: inline-block;
-  font-size: 10pt;
+  font-size: 15pt;
   margin: 15px 15px 0 15px;
   padding: 8px 30px 10px;
   text-align: center;

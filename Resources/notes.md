@@ -139,3 +139,32 @@ need to look up Tab Index
 11/3/2018
 Added ARIA labels to restaurant.html need to figure out why I have this at the top of my project 
 `<<<<<<< HEAD ======= >>>>>>> 6e91597ebdf43ee51c604eccd0c1264467e97984`
+
+thenewmona {FEND}Michigan [1 day ago]
+good morning everyone, I just added my ARIA to my restaurant.html now at the top of the screen I have this
+`<<<<<<< HEAD ======= >>>>>>> 6e91597ebdf43ee51c604eccd0c1264467e97984`
+https://snag.gy/NGS25B.jpg
+I have searched my HTML, thinking maybe I commented something, I can not figure out where this is coming from
+Has anyone else have this before
+Thanks (edited)
+
+
+Donna.L [24 hours ago]
+Do you want to share you repo?
+
+
+dannygsmith [FEND] OKC [23 hours ago]
+It came from giddy-up-and-git.  When you ran it, it didn't merge cleanly, so you need to edit it and keep the change you want.  See https://stackoverflow.com/questions/161813/how-to-resolve-merge-conflicts-in-git/7589612#7589612
+Stack Overflow
+How to resolve merge conflicts in Git
+Is there a good way to explain how to resolve merge conflicts in Git?
+ 
+
+
+Also sent to the channel
+thenewmona {FEND}Michigan [13 hours ago]
+@dannygsmith [FEND] OKC thanks for the info, @gina812[FEND] was helping me with this and we kinda figured that out, just not sure why it is messing with my HTML file, and I only have one branch so not sure where the merge conflict is coming from, but now that I know that it is from GIT I can clean it up
+
+11/4/2018
+
+Decided to do an audit on my page to see where I was with the project, should have done this from the beginning so that I had a progress baseline
