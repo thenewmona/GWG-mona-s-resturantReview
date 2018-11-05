@@ -139,10 +139,11 @@ nav h1 {
 
 nav h1 a {
   color: rgb(149, 151, 175);
-  font-size: 10pt;/*not sure if I like it that big, need to followup on this . want to change the font on this also */
+  font-size: 15pt;/*not sure if I like it that big, need to followup on this . want to change the font on this also */
   font-weight: 500;
   letter-spacing: 5px;
   text-transform: uppercase;
+  font-family: 'Sofia';font-size: 22px
 }
 
 #breadcrumb {
@@ -187,7 +188,12 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
-}
+  text-align: center;
+  }
+
+  .map-aria-description {
+    display: none;
+  }
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
@@ -233,24 +239,24 @@ nav h1 a {
   text-align: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-wrap: wrap;  
   justify-content: center;
 }
 
 #restaurants-list li {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: rgb(158, 149, 187);
-  border: 2px solid rgb(69, 78, 55);
+  border: 2px solid rgb(69, 78, 55);  
   font-family: Arial,
     sans-serif;
   font-weight: 500;
   margin: 15px;
-  min-height: 380px;
-  padding: 0 0px 25px;
+  /* min-height: 380px; */
+  padding: 0 30px 25px;
   text-align: left;
-  max-width: auto;
+  min-width: 270;
+  max-width: 300;
 }
 
 /* display: flex; */
@@ -297,11 +303,11 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 90%;
+  /* width: 90%; */
 }
 
 /* ====================== Restaurant Details ====================== */
-/* .inside header {
+/* .inside header { commented out per Doug because of the fixed position 
   position: fixed;
   top: 0;
   width: 100%;
@@ -321,8 +327,9 @@ nav h1 a {
 
 .inside #map-container {
   background: rgb(35, 51, 143) none repeat scroll 0 0;
-  height: 87%;
-  position: relative;
+  height: 200px;
+  position: fixed;
+  right:0;
   width: 100%;
 }
 
@@ -335,16 +342,16 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 100%;
+  width: 50%;
 }
 
 #restaurant-name {
-  color: #4b2903;
+  color: #2d1461;
   font-family: Arial, sans-serif;
   font-size: 20pt;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 0;
-  margin: 5px 0 30px;
+  margin: 15px  10px;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -366,7 +373,7 @@ nav h1 a {
 }
 
 #restaurant-cuisine {
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(57, 47, 70);
   color: #ddd;
   font-size: 12pt;
   font-weight: 500;
@@ -397,9 +404,9 @@ nav h1 a {
 }
 
 #reviews-container h2 {
-  color: #06245d;
+  color: #2c213a;
   font-size: 24pt;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: -1px;
   padding-bottom: 1pt;
   text-transform: uppercase;
@@ -415,9 +422,9 @@ nav h1 a {
 }
 
 #reviews-list li {
-  background-color: #fff;
-  border: 2px solid #f3f3f3;
-  box-shadow: 6px 8px 7px 4px #39d;
+  background-color: rgb(221, 214, 228);
+  border: 2px solid #7a737a;
+  box-shadow: 6px 8px 7px 4px rgb(96, 70, 100);
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -470,7 +477,7 @@ nav h1 a {
 
   /*iphone */
   nav {
-    background-color: rgb(164, 146, 196);
+    background-color: rgb(80, 70, 110);
   }
   #restaruants-list li {
     max-width: 50%;
