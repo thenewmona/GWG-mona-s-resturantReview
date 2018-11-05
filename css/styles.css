@@ -328,7 +328,7 @@ nav h1 a {
 .inside #map-container {
   background: rgb(35, 51, 143) none repeat scroll 0 0;
   height: 200px;
-  position: fixed;
+  position: relative;
   right:0;
   width: 100%;
 }
@@ -342,7 +342,7 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  width: 100%;
 }
 
 #restaurant-name {
