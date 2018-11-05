@@ -160,9 +160,14 @@ createRestaurantHTML = (restaurant) => {
 
   const image = document.createElement('img');
   image.className = 'restaurant-img';
-  // image.alt = `Picture of ${restuarant.name}`; //Per Alexandro Perez walkthrough
-  image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  image.src = DBHelper.imageUrlForRestaurant(restaurant, 'small');
+  image.alt = `Picture of ${restaurant.name}`//Per Alexandro Perez walkthrough
+  image.title = `Picture of ${restaurant.name}, click View Details button below to see more information`
   li.append(image);
+  // image.className = 'restaurant-img'; 
+  // image.src = DBHelper.imageUrlForRestaurant(restaurant);
+  //  image.alt = `Picture of ${restuarant.name}`; //Per Alexandro Perez walkthrough
+  // li.append(image);
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
