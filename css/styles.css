@@ -464,7 +464,7 @@ nav h1 a {
 }
 
 /* medium screen  */
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   nav {
     background-color: rgb(95, 92, 139);
   }
@@ -474,7 +474,7 @@ nav h1 a {
 }
 
 /* small screen  */
-@media (max-width: 320px) {
+@media (max-width: 32px) {
 
   /*iphone */
   nav {
