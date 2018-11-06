@@ -138,9 +138,9 @@ nav h1 {
 }
 
 nav h1 a {
-  color: rgb(149, 151, 175);
+  color: rgb(18, 17, 27);
   font-size: 15pt;/*not sure if I like it that big, need to followup on this . want to change the font on this also */
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-family: 'Sofia';font-size: 22px
@@ -357,8 +357,8 @@ nav h1 a {
 }
 
 #restaurant-img {
-  display: block;
-  width: 90%;
+  display: center;
+  width:auto;
 }
 
 #restaurant-address {
@@ -382,7 +382,7 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 90%;
+  width: auto;
 }
 
 #restaurant-container,

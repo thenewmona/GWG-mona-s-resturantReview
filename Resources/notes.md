@@ -168,3 +168,7 @@ thenewmona {FEND}Michigan [13 hours ago]
 11/4/2018
 
 Decided to do an audit on my page to see where I was with the project, should have done this from the beginning so that I had a progress baseline
+
+11/5/2018
+
+
