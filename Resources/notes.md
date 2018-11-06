@@ -171,4 +171,4 @@ Decided to do an audit on my page to see where I was with the project, should ha
 
 11/5/2018
 
-
+updating ARIA map content using the following [aria-hidden (state)](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-hidden)

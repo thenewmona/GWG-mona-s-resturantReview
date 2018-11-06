@@ -46,5 +46,9 @@
 
 [Breadcrumbs for Website | Materialize CSS](https://www.youtube.com/watch?v=Qj_T8CG3oUA)
 
+[aria-hidden (state)](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-hidden)
+
+[ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
+
 
 
