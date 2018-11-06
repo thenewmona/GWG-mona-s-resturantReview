@@ -205,6 +205,11 @@ addMarkersToMap = (restaurants = self.restaurants) => {
   });
 
 }
+
+if ('serviceWorker' in navigator) {
+  console.log('Service Worker Supported');
+}
+
 /* addMarkersToMap = (restaurants = self.restaurants) => {
   restaurants.forEach(restaurant => {
     // Add marker to the map
