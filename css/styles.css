@@ -21,8 +21,10 @@ body {
   margin: 0;
   position: relative;
   padding: 0;
-   margin-left: auto;/*per Doug Brown */
-  margin-right: auto;/*per Doug Brown*/
+  margin-left: auto;
+  /*per Doug Brown */
+  margin-right: auto;
+  /*per Doug Brown*/
   height: 100%;
   font-size: 15px;
 }
@@ -49,7 +51,7 @@ li {
 }
 
 a {
-  color: rgb(13, 3, 26);
+  color: rgb(23, 7, 44);
   text-decoration: none;
 }
 
@@ -108,7 +110,7 @@ section {
   min-height: 100%;
   width: 100vw;
   position: relative;
-  display: flex;   
+  display: flex;
   flex-direction: column;
 }
 
@@ -139,11 +141,13 @@ nav h1 {
 
 nav h1 a {
   color: rgb(18, 17, 27);
-  font-size: 15pt;/*not sure if I like it that big, need to followup on this . want to change the font on this also */
+  font-size: 15pt;
+  /*not sure if I like it that big, need to followup on this . want to change the font on this also */
   font-weight: 900;
   letter-spacing: 5px;
   text-transform: uppercase;
-  font-family: 'Sofia';font-size: 22px
+  font-family: 'Sofia';
+  font-size: 22px
 }
 
 #breadcrumb {
@@ -189,11 +193,11 @@ nav h1 a {
   width: 100%;
   background-color: #ccc;
   text-align: center;
-  }
+}
 
-  .map-aria-description {
-    display: none;
-  }
+.map-aria-description {
+  display: none;
+}
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
@@ -239,7 +243,7 @@ nav h1 a {
   text-align: center;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -247,7 +251,7 @@ nav h1 a {
   /* display: flex;
   flex-wrap: wrap; */
   background-color: rgb(158, 149, 187);
-  border: 2px solid rgb(69, 78, 55);  
+  border: 2px solid rgb(69, 78, 55);
   font-family: Arial,
     sans-serif;
   font-weight: 500;
@@ -262,23 +266,25 @@ nav h1 a {
 /* display: flex; */
 /* per alexandro walkthrough: use flex, and flex wrap instead of grid, also add to media queries */
 
-#restaurants-list .restaurant-img {/*doug brown's walkthrough*/
+#restaurants-list .restaurant-img {
+  /*doug brown's walkthrough*/
   background-color: rgb(216, 238, 196);
   display: block;
-  margin: 0;    
-  max-width: 100%;  
+  margin: 0;
+  max-width: 100%;
   min-width: 100%;
   overflow: hidden;
 }
 
-#restaurants-list li h1 {/*change font family*/
+#restaurants-list li h1 {
+  /*change font family*/
   color: #c9d4c5;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14pt;
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1.3;
-  margin: 20px 0 10px;  
+  margin: 20px 0 10px;
   padding: 0 25px;
   height: 20px;
   text-transform: uppercase;
@@ -292,7 +298,8 @@ nav h1 a {
   width: 90%;
 }
 
-#restaurants-list li a {/*change font style*/
+#restaurants-list li a {
+  /*change font style*/
   background-color: rgb(117, 165, 90);
   border-bottom: 3px solid rgb(86, 81, 109);
   color: rgb(24, 29, 24);
@@ -329,7 +336,7 @@ nav h1 a {
   background: rgb(35, 51, 143) none repeat scroll 0 0;
   height: 200px;
   position: relative;
-  right:0;
+  right: 0;
   width: 100%;
 }
 
@@ -351,14 +358,14 @@ nav h1 a {
   font-size: 20pt;
   font-weight: 900;
   letter-spacing: 0;
-  margin: 15px  10px;
+  margin: 15px 10px;
   text-transform: uppercase;
   line-height: 1.1;
 }
 
 #restaurant-img {
   display: center;
-  width:auto;
+  width: auto;
 }
 
 #restaurant-address {
@@ -442,7 +449,7 @@ nav h1 a {
   color: #666;
   margin: 0 auto;
   font-size: 14px;
-  font-weight:500;
+  font-weight: 500;
   padding: 3px 3px;
   text-align: center;
 }
@@ -458,6 +465,7 @@ nav h1 a {
   nav {
     background-color: rgb(86, 76, 116);
   }
+
   #restaruants-list li {
     max-width: 100%;
   }
@@ -468,6 +476,7 @@ nav h1 a {
   nav {
     background-color: rgb(95, 92, 139);
   }
+
   #restaruants-list li {
     max-width: 80%;
   }
@@ -480,20 +489,22 @@ nav h1 a {
   nav {
     background-color: rgb(80, 70, 110);
   }
+
   #restaruants-list li {
     max-width: 50%;
   }
+
   #footer {
     font-size: 8px;
-    text-align:center;
-    width:100%;
-    
+    text-align: center;
+    width: 100%;
+
   }
+
   .inside #footer {
-    width:100;
+    width: 100;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 
   }
 }
-

@@ -172,3 +172,7 @@ Decided to do an audit on my page to see where I was with the project, should ha
 11/5/2018
 
 updating ARIA map content using the following [aria-hidden (state)](https://www.w3.org/WAI/PF/aria/states_and_properties#aria-hidden)
+
+
+11/6/2018 not having the same issues at work with the breadcrumb as I do at home 
+https://snag.gy/KgeqTr.jpg not sure what is going on, need to work on this, but my picture is looking funny now though 
