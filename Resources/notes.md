@@ -176,3 +176,37 @@ updating ARIA map content using the following [aria-hidden (state)](https://www.
 
 11/6/2018 not having the same issues at work with the breadcrumb as I do at home 
 https://snag.gy/KgeqTr.jpg not sure what is going on, need to work on this, but my picture is looking funny now though 
+
+11/06/2018
+OK I am about ready to lose my mind here people
+I stayed up til 2am this morning trying to fix an issue, and ended up breaking more of my project
+I get into work on a different computer and the issue that I was working on all last night does not exist
+Thinking that maybe something did not sync properly, I went to Github to see what it shows, It is also totally different
+
+This is what Github is showing my project to look like
+https://snag.gy/ZaOc03.jpg
+
+This is what it looks like on my liveserver in VSC
+https://snag.gy/fQ1SMK.jpg
+
+This is the error that I was trying to fix last night
+https://snag.gy/naEF6s.jpg
+
+
+Has anyone had this issue before?
+I feel like I am going around in circles, and now I don't even know what to work on because I don't know what is a real issue and what is not
+Any thoughts, ideas, and help is greatly appreciated
+working on service worker getting this error message 
+Service Worker Supported
+index.html:82 Live reload enabled.
+leaflet.js:5 [Intervention] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/sofia/v6/8QIHdirahM3j_su5uI0.woff2
+register-sw.js:8 Service Worker: Registered
+A bad HTTP response code (404) was received when fetching the script.
+Failed to load resource: net::ERR_INVALID_RESPONSE
+index.html:1 Uncaught (in promise) TypeError: Failed to register a ServiceWorker: A bad HTTP response code (404) was received when fetching the script.
+favicon.ico:1 GET http://127.0.0.1:5500/favicon.ico 404 (Not Found)
+Service Worker Supported
+A bad HTTP response code (404) was received when fetching the script.
+Failed to load resource: net::ERR_INVALID_RESPONSE
+register-sw.js:9 Couldn't register service worker... 
+ TypeError: Failed to register a ServiceWorker: A bad HTTP response code (404) was received when fetching the script.
