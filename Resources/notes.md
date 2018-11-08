@@ -249,3 +249,55 @@ Failures: No manifest was fetched, No `<meta name="theme-color">` tag found.
 8
 Content is not sized correctly for the viewport
 The viewport size is 2400px, whereas the window size is 1920px.
+
+11/8/2018
+
+sw.js:51 Uncaught (in promise) ReferenceError: map is not defined
+    at sw.js:51
+
+   My PWA  audit is up to 62 still needs some work 
+
+    https://snag.gy/0uMdh8.jpg
+
+
+    
+
+# Progressive Web App errors
+
+*These checks validate the aspects of a Progressive Web App, as specified by the baseline PWA Checklist.*
+
+
+1
+User will not be prompted to Install the Web App
+Failures: No manifest was fetched, Service worker does not successfully serve the manifest's start_url, No usable web app manifest found on page.
+Browsers can proactively prompt users to add your app to their homescreen, which can lead to higher engagement. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/install-prompt).
+
+2
+If you've already set up HTTPS, make sure that you redirect all HTTP traffic to HTTPS. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/http-redirects-to-https).
+
+3
+Does not have a <meta name="viewport"> tag with width or initial-scale
+No viewport meta tag found 
+Add a viewport meta tag to optimize your app for mobile screens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/has-viewport-meta-tag)
+
+https://developers.google.com/web/tools/lighthouse/audits/install-prompt
+4
+Is not configured for a custom splash screen
+Failures: No manifest was fetched.
+A themed splash screen ensures a high-quality experience when users launch your app from their homescreens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/custom-splash-screen).
+
+5
+Address bar does not match brand colors
+Failures: No manifest was fetched, No `<meta name="theme-color">` tag found.
+The browser address bar can be themed to match your site. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/address-bar)
+
+6
+Content is not sized correctly for the viewport
+The viewport size is 2880px, whereas the window size is 1920px.
+If the width of your app's content doesn't match the width of the viewport, your app might not be optimized for mobile screens. [Learn more](https://developers.google.com/web/tools/lighthouse/audits/content-sized-correctly-for-viewport)
+
+[Solving the Lighthouse 'content is not sized correctly for the viewport' Failed Test](https://love2dev.com/blog/content-is-not-sized-correctly-for-the-viewport/)
+
+[Google devtools service worker fix](https://docs.google.com/presentation/d/1T_LHDAa7QXdNS7icNXz80d5KebDerqUdGZpg7jafLnw/edit#slide=id.g3c7f3ec099_0_2)
+
+[Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
