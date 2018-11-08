@@ -1,16 +1,22 @@
-const appName ="restaurant-reviews";
-const staticCacheName = appName + "-v1.0";// what does the -v1.0 mean
+// https://www.youtube.com/watch?v=ksXwaWHCW6k&t=716s
+// https://alexandroperez.github.io/mws-walkthrough/?1.23.registering-service-worker-and-caching-static-assets
+// https://developers.google.com/web/fundamentals/primers/service-workers/
+
+const appName ="Mona's Restaurant Rreview";
+const staticCacheName = appName + "-v1.0";
 const contentImgsCache = appName + "-images";
 
-
 //caching SW 
-
 
 let allCaches =[
     staticCacheName,contentImgsCache
 ];
 
-self.addEventListener('install',function(cache){
+//Install SW 
+
+self.addEventListener('install',function(event){
+    event.waitUntil(
+        caches.open("Mona's Restaurant Rreview").then(function(cache){      
     return cache.addAll([
         '/',
         '/restaurant.html',
@@ -30,13 +36,12 @@ self.addEventListener('install',function(cache){
         '/img/7.jpg',
         '/img/8.jpg',
         '/img/9.jpg',
-        '/img/10.jpg',
-       
-            
+        '/img/10.jpg',                
 
     ])
 })
-
+    );
+});
 //activating SW
 
 self.addEventListener('activate', function(event){
@@ -54,7 +59,7 @@ event.waitUntil(
 );
 });
 
-//fetch listener 
+// //Fetch event listener https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook/#cache-falling-back-to-network
 
 self.addEventListener('fetch', function(event){
     event.respondWith(
@@ -64,4 +69,4 @@ self.addEventListener('fetch', function(event){
     )
 })
 
-//offline 
+// //offline 

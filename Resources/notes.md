@@ -196,6 +196,7 @@ https://snag.gy/naEF6s.jpg
 Has anyone had this issue before?
 I feel like I am going around in circles, and now I don't even know what to work on because I don't know what is a real issue and what is not
 Any thoughts, ideas, and help is greatly appreciated
+
 working on service worker getting this error message 
 Service Worker Supported
 index.html:82 Live reload enabled.
@@ -210,3 +211,41 @@ A bad HTTP response code (404) was received when fetching the script.
 Failed to load resource: net::ERR_INVALID_RESPONSE
 register-sw.js:9 Couldn't register service worker... 
  TypeError: Failed to register a ServiceWorker: A bad HTTP response code (404) was received when fetching the script.
+
+ 11/7/2018
+ # slack notes
+ 
+ Did you get the service worker question answered? See that the path for the service worker file is in the same path for the main.js As written its two aways its current path.
+
+ * TODO Need to work on these PWA issues 
+
+ Progressive Web App
+These checks validate the aspects of a Progressive Web App, as specified by the baseline PWA Checklist.
+1
+Does not respond with a 200 when offline
+
+2
+User will not be prompted to Install the Web App
+Failures: No manifest was fetched, Site does not register a service worker.
+
+3
+Does not redirect HTTP traffic to HTTPS
+
+4
+Does not have a <meta name="viewport"> tag with width or initial-scale
+No viewport meta tag found
+
+5
+Does not register a service worker
+
+6
+Is not configured for a custom splash screen
+Failures: No manifest was fetched.
+
+7
+Address bar does not match brand colors
+Failures: No manifest was fetched, No `<meta name="theme-color">` tag found.
+
+8
+Content is not sized correctly for the viewport
+The viewport size is 2400px, whereas the window size is 1920px.
