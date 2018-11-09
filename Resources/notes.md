@@ -341,3 +341,17 @@ favicon.ico:1 GET http://127.0.0.1:5500/favicon.ico net::ERR_CONNECTION_REFUSED
 An unknown error occurred when fetching the script.
 
 Failed to load resource: net::ERR_CONNECTION_REFUSED
+
+with  the help of Julian figured out that I was having a caching issue with google 
+
+# color scheme accesibilty
+Therese Yason (FEND) [8:57 AM]
+Hi, Mona! I saw a sample of your Restaurant Reviews Project on Slack. You might want to reconsider your purple and green color combo because they might be of the same intensity and value. I'm not colorblind but a colorblind or someone with color deficiency might perceive both colors as one shade of grey.
+
+
+thenewmona {FEND}Michigan [9:08 AM]
+Thanks for the info Therese
+I was thinking about when I was looking over it, especially since I also went with an off white, because the white that they had was so bright it actaully hurt my eyes
+
+Therese Yason (FEND) [9:12 AM]
+My husband's brothers are colorblind or have red-green deficiency so I kind of know how it is. You can reduce the value of the purple to a pale purple, though, so you can still keep the color scheme intact.
