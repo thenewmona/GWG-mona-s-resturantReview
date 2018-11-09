@@ -303,3 +303,41 @@ If the width of your app's content doesn't match the width of the viewport, your
 [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 *error message* Uncaught (in promise) TypeError: Request failed
+
+11/9/2018
+
+one step forward 3 steps back, have no idea what is going on this morning with this project 
+doing to much troubleshooting, and just keep messing things up 
+Nothing will load now 
+
+## Error messages in the console
+
+sw.js:65 TypeError: Failed to fetch
+(anonymous) @ sw.js:65
+Promise.catch (async)
+(anonymous) @ sw.js:64
+Promise.then (async)
+(anonymous) @ sw.js:49
+
+The FetchEvent for "https://pkg.com/leaflet@1.3.1/dist/leaflet.js" resulted in a network error response: an object that was not a Response was passed to respondWith().
+Promise.then (async)
+(anonymous) @ sw.js:48
+
+index.html:41 GET https://pkg.com/leaflet@1.3.1/dist/leaflet.js net::ERR_FAILED
+main.js:75 Uncaught ReferenceError: L is not defined
+    at initMap (main.js:75)
+    at HTMLDocument.<anonymous> (main.js:11)
+initMap @ main.js:75
+(anonymous) @ main.js:11
+
+register-sw.js:9 ServiceWorker registration successful with scope:  http://127.0.0.1:5500/
+
+index.html:76 WebSocket connection to 'ws://127.0.0.1:5500/index.html/ws' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED
+(anonymous) @ index.html:76
+(anonymous) @ index.html:85
+
+favicon.ico:1 GET http://127.0.0.1:5500/favicon.ico net::ERR_CONNECTION_REFUSED
+
+An unknown error occurred when fetching the script.
+
+Failed to load resource: net::ERR_CONNECTION_REFUSED
