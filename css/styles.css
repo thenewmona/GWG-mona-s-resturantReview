@@ -170,21 +170,23 @@ nav h1 a {
 /* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li+li:before {
   padding: 8px;
-  color: rgb(149, 194, 219);
+  color: rgb(7, 7, 1);
   content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-  color: #8d78ad;
+  color: #1f0e3a;
   text-decoration: none;
-  font-weight: 700;
+  font-size: 1.7em;
+  font-weight: 900;
 }
 
 /* Add a color on mouse-over */
 #breadcrumb li a:hover {
   color: #38375e;
   text-decoration: underline;
+  font-size: 1.2em;
 }
 
 /* ====================== Map ====================== */
@@ -283,7 +285,7 @@ nav h1 a {
   letter-spacing: 0;
   line-height: 1.0;
   margin: 20px 0 10px;
-  padding: 0 30 25px;
+  padding: 0 30px 25px;
   height: 20px;
   text-transform: uppercase;
   text-align: center;
