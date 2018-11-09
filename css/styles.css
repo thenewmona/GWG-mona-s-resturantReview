@@ -206,7 +206,7 @@ nav h1 a {
   width: 100%;
   height: auto;
   padding: 15px 0 4px;
-  background-color:  rgb(185, 171, 224);
+  background-color: rgb(185, 171, 224);
   align-items: center;
   text-align: center;
 }
@@ -255,12 +255,12 @@ nav h1 a {
   background-color: rgb(173, 157, 228);
   border: 2px solid rgb(69, 78, 55);
   font-family: Arial,
-    sans-serif;   
-    margin: 15px;
-    min-height: 380px;
-    padding: 0 30px 25px;
-    text-align: left;
-    width: 270px;
+    sans-serif;
+  margin: 15px;
+  min-height: 380px;
+  padding: 0 30px 25px;
+  text-align: left;
+  width: 270px;
 }
 
 /* display: flex; */
