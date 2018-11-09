@@ -301,3 +301,5 @@ If the width of your app's content doesn't match the width of the viewport, your
 [Google devtools service worker fix](https://docs.google.com/presentation/d/1T_LHDAa7QXdNS7icNXz80d5KebDerqUdGZpg7jafLnw/edit#slide=id.g3c7f3ec099_0_2)
 
 [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
+*error message* Uncaught (in promise) TypeError: Request failed

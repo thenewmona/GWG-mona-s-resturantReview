@@ -2,7 +2,7 @@
 // https://alexandroperez.github.io/mws-walkthrough/?1.23.registering-service-worker-and-caching-static-assets
 // https://developers.google.com/web/fundamentals/primers/service-workers/
 
-const appName ="Mona's Restaurant Rreview";
+const appName ="Mona's Restaurant Review";
 const staticCacheName = appName + "-v1.0";
 const contentImgsCache = appName + "-images";
 
@@ -16,7 +16,7 @@ let allCaches =[
 
 self.addEventListener('install',function(event){
     event.waitUntil(
-        caches.open("Mona's Restaurant Rreview").then(function(cache){      
+        caches.open("Mona's Restaurant Review").then(function(cache){      
     return cache.addAll([
         '/',
         '/restaurant.html',
@@ -37,7 +37,8 @@ self.addEventListener('install',function(event){
         '/img/8.jpg',
         '/img/9.jpg',
         '/img/10.jpg',  
-        '/https://unpkg.com/leaflet@1.3.1/dist/leaflet.js' ,            
+        '/https://pkg.com/leaflet@1.3.1/dist/leaflet.js' ,
+        '/https://unpkg.com/leaflet@1.3.1/dist/leaflet.css' ,           
 
     ])
 })
@@ -64,10 +65,29 @@ event.waitUntil(
 
 self.addEventListener('fetch', function(event){
     event.respondWith(
-        caches.match(event.request).then(function(response){
-            return response || fetch(event.request);
+        caches.match(event.request)
+        .then(function(response){
+            if (response) {
+                return response;
+            }
+            return fetch(event.request);
         })
     )
 })
 
-// //offline 
+let fetchRequest = event.request.clone();
+return fetch(fetchRequest).then(
+function (response) {
+    if(!response || response.status !== 200 || response.type !== 'basic'){
+        return response;
+    }
+
+    let responseToCache = response.clone();
+    caches.open("Mona's Restaurant Review")
+    .then(function(cache){
+        cache.put(event.request, responseToCache);
+    });
+    return response;
+}
+
+)// //offline 
