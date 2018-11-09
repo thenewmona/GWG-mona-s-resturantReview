@@ -116,7 +116,7 @@ section {
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: rgb(223, 238, 17);
   font-size: 12pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -153,7 +153,7 @@ nav h1 a {
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
-  background-color: rgb(178, 188, 216);
+  background-color: rgb(216, 240, 8);
   font-size: 20px;
   /* font-style:bold; */
   font-weight: 700;
@@ -214,7 +214,7 @@ nav h1 a {
 }
 
 .filter-options h2 {
-  color: rgb(195, 204, 228);
+  color: rgb(218, 241, 8);
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
