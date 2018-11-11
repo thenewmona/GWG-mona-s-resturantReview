@@ -8,7 +8,7 @@ class DBHelper {
      * Change this to restaurants.json file location on your server.
      */
     static get DATABASE_URL() { /*python -m http.server*/
-      const port = 5500 // Change this to your server port
+      const port = 8000 // Change this to your server port
       return `http://localhost:${port}/data/restaurants.json`;
     }
   

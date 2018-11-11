@@ -79,9 +79,8 @@ let fetchRequest = event.request.clone();
 return fetch(fetchRequest).then(
 function (response) {
     if(!response || response.status !== 200 || response.type !== 'basic'){
-        return response;
-    }
-
+        return response;  
+       }
     let responseToCache = response.clone();
     caches.open("Mona's Restaurant Review")
     .then(function(cache){
@@ -91,4 +90,4 @@ function (response) {
 }
 
 )
-// //offline 
+//offline 

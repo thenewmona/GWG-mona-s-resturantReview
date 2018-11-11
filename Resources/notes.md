@@ -355,3 +355,8 @@ I was thinking about when I was looking over it, especially since I also went wi
 
 Therese Yason (FEND) [9:12 AM]
 My husband's brothers are colorblind or have red-green deficiency so I kind of know how it is. You can reduce the value of the purple to a pale purple, though, so you can still keep the color scheme intact.
+
+11/10/2018
+
+Worked with Sonam and Danny on my service worker and still can not figure out why it won't work
+Going to submit to see what the reviewer says
