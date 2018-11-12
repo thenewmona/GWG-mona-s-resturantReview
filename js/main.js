@@ -169,7 +169,7 @@ createRestaurantHTML = (restaurant) => {
   //  image.alt = `Picture of ${restuarant.name}`; //Per Alexandro Perez walkthrough
   // li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h3');//fixing per reviewer's suggestion
   name.innerHTML = restaurant.name;
   li.append(name);
 

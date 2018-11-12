@@ -360,3 +360,8 @@ My husband's brothers are colorblind or have red-green deficiency so I kind of k
 
 Worked with Sonam and Danny on my service worker and still can not figure out why it won't work
 Going to submit to see what the reviewer says
+
+11/12/2018
+
+Redid service worker with Doug Brown's tutorial and it is working offline now 
+need to fix the viewport issue so that I can resubmit 
