@@ -484,10 +484,10 @@ nav h1 a {
   }
 }
 
-/* small screen  */
-@media (max-width: 32px) {
+/* small screen iphone */
+@media (max-width: 100%) {
 
-  /*iphone */
+  
   nav {
     background-color: rgb(80, 70, 110);
   }
