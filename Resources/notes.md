@@ -365,3 +365,15 @@ Going to submit to see what the reviewer says
 
 Redid service worker with Doug Brown's tutorial and it is working offline now 
 need to fix the viewport issue so that I can resubmit 
+
+test SW at work and I am getting this error message UGHHHHH
+
+7swDB.js:47 cached undefined
+
+register-sw.js:9 ServiceWorker registration successful with scope:  http://127.0.0.1:5500/
+
+favicon.ico:1 GET http://127.0.0.1:5500/favicon.ico net::ERR_INTERNET_DISCONNECTED
+
+swDB.js:37 caches install failed TypeError: Failed to fetch
+
+Back to the drawing board

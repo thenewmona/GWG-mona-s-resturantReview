@@ -1,4 +1,4 @@
-/*Some inspiration was recieved from the Udacity youTube video
+/*Redo using Doug Brown's walkthrough 
 Project 1 MWS Webinar with Doug Brown https://www.youtube.com/watch?v=92dtrNU1GQc */
 
 const cacheID = 'restaurant-v1.2';
@@ -29,7 +29,7 @@ const cacheFiles = [
 ];
 
 self.addEventListener('install', function(e){
-     e.waitUntill(
+     e.waitUntil(
           caches.open(cacheID).then(function(cache){
                return cache.addAll(cacheFiles);
           })
@@ -44,7 +44,7 @@ self.addEventListener('fetch', function(e){
           caches.match(e.request).then(function(response){
                //check response
                if(response){
-                    console.log('cached ' + e.response);
+                    console.log('cache' + e.response);
                     return response;
                }else{
                     console.log('could not find ' + e.response + ' for caching');
