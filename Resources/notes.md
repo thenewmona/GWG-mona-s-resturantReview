@@ -559,3 +559,37 @@ ok, I have moved the other CSS files totally out of the project, right now I am 
 Message Input
 
 Message JZerman {FEND} 
+
+11/13/2018
+
+## slack conversation 
+
+Good morning everyone
+I need some serious help, this service worker is going to be the death of me
+Submitted my project last night for the second, and they are still saying that my SW does not work offline
+before I submitted it last night I even had my studyBuddy try it, and it worked for both of us.
+I tried it again this morning with both liveServer in VSC, and on my Python Server and it still works
+https://snag.gy/AaLQWu.jpg (1 MB)
+
+
+I am at a total loss, I would really appreciate a second pair of eyes to see if there is something that I am missing
+
+https://github.com/thenewmona/GWG-monas-resturantReview
+
+Thanks
+GitHub
+thenewmona/GWG-monas-resturantReview
+Working file fixed with Danny's help . Contribute to thenewmona/GWG-monas-resturantReview development by creating an account on GitHub.
+
+
+Doug Brown [Project Coach] [2 hours ago]
+It works fine offline. There is a bug in the current version of Chrome where, if you check the “offline” box on the application tab, it completely kills the service worker and nothing works. Testing requires shutting down the python server. Put that in your submission note and turn it in again.  :slightly_smiling_face:
+
+
+Also sent to the channel
+thenewmona {FEND}Michigan [6 minutes ago]
+@Doug Brown [Project Coach] and @Alan {FEND} Thanks for the help
+my studybuddy @JZerman {FEND} and I worked on last night for a few hours, we both tested it and it worked fine
+Even tried to test it in IE and FF, but IE does not support SW
+@Doug Brown [Project Coach] I am going to use your suggestion and resubmit with the note
+Thanks
