@@ -377,3 +377,185 @@ favicon.ico:1 GET http://127.0.0.1:5500/favicon.ico net::ERR_INTERNET_DISCONNECT
 swDB.js:37 caches install failed TypeError: Failed to fetch
 
 Back to the drawing board
+
+# per audit 
+Text is invisible while webfonts are loading
+Leverage the font-display CSS feature to ensure text is user-visible while webfonts are loading. Learn more.
+
+[@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)
+
+## Slack with Juwana 
+--------------------
+JZerman {FEND} [6:09 PM]
+The service worker was working for me but the map is missing. The markers are there but no map
+
+thenewmona {FEND}Michigan [6:35 PM]
+On my repo?
+this is really getting anoying
+I just got home, pulled it up, map is showing on my side
+I do have the port set at 5500 by the way, because I am using VSClive server
+not sure if that makes a difference or not
+still works offline at home, must be something at work with the network
+oh well I am going to work on the viewport, get that fixed and resubmit this thing
+thanks for checking
+
+JZerman {FEND} [6:44 PM]
+no I have the right port I had to figure that out when I cloned it a few weeks ago
+
+thenewmona {FEND}Michigan [6:46 PM]
+are there any errors in the console, funny I have tons of errors, but it is working here on my side
+https://snag.gy/OpuzCf.jpg
+https://snag.gy/OpuzCf.jpg
+
+JZerman {FEND} [6:48 PM]
+Yeah there were some. Let me pull it back up
+
+thenewmona {FEND}Michigan [6:49 PM]
+great testing on IE, and there is nothing there :disappointed:
+
+JZerman {FEND} [6:53 PM]
+Pasted image at 2018-11-12, 6:53 PM 
+
+that's the top for me
+Pasted image at 2018-11-12, 6:55 PM 
+
+
+thenewmona {FEND}Michigan [6:55 PM]
+that's my old colors, it should be purple? WTF
+I'm running it in IE right now, and the map doesn't show on this end, and IE is giving me all kinds of weird errors
+Saying I have extra body and html tags
+No that one is like a month old LOL
+let me make sure you have the right repo, I had to create a new repo LOL
+https://github.com/thenewmona/GWG-monas-resturantReview
+GitHub
+thenewmona/GWG-monas-resturantReview
+Working file fixed with Danny's help . Contribute to thenewmona/GWG-monas-resturantReview development by creating an account on GitHub.
+I have like 4 repo's for this project, I have started this thing so many times
+
+JZerman {FEND} [6:57 PM]
+I have two...I thought this might have been the updated one....That might be the problem for me
+
+thenewmona {FEND}Michigan [6:57 PM]
+have you ever worked with IE?
+can't figure out how to see the service worker stuff
+
+JZerman {FEND} [7:00 PM]
+no. send me the right repo and I'll look....we might can figure it out. I deleted the other two repos
+
+thenewmona {FEND}Michigan [7:00 PM]
+I just sent the repo that I am working on
+https://github.com/thenewmona/GWG-monas-resturantReview
+GitHub
+thenewmona/GWG-monas-resturantReview
+Working file fixed with Danny's help . Contribute to thenewmona/GWG-monas-resturantReview development by creating an account on GitHub.
+
+thenewmona {FEND}Michigan [7:05 PM]
+I'm installing FF to see how it renders on FF
+everything shows up in firefox
+
+JZerman {FEND} [7:10 PM]
+oh wow. I'm deleting the repos I had. I downloading that one and it's showing blue still for the headers
+
+thenewmona {FEND}Michigan [7:10 PM]
+did you hard clear your cache ,
+found out that I had to do that, spent the whole week working on old code, thinking my stuff was still not working
+but I don't know how to use FF either LOL
+
+JZerman {FEND} [7:12 PM]
+yeah I learned that the hard way too
+
+thenewmona {FEND}Michigan [7:15 PM]
+firefox the service worker stuff is on a different page
+Really
+
+JZerman {FEND} [7:26 PM]
+alright got it running in chrome....had to break out my old command line skills. I've been using github desktop and it just wasn't working
+
+thenewmona {FEND}Michigan [7:26 PM]
+LOL
+
+JZerman {FEND} [7:26 PM]
+Everything is showing no console errors but on the service worker it shows an error.....let me screen print it
+
+thenewmona {FEND}Michigan [7:26 PM]
+something weird is going on
+I am working on some of the suggestions that he reviewer gave me, but none of my changes are showing up
+
+JZerman {FEND} [7:27 PM]
+:5500/swDB.js:44
+Full error: Uncaught TypeError: Cannot read property 'then' of undefined
+   at :5500/swDB.js:44
+
+thenewmona {FEND}Michigan [7:27 PM]
+He recommend that I change the font size in my nav bar
+I didn't see a change so I changed the color and nothing is happening
+
+JZerman {FEND} [7:28 PM]
+Pasted image at 2018-11-12, 7:28 PM 
+
+
+thenewmona {FEND}Michigan [7:29 PM]
+does it work offline for you?
+
+JZerman {FEND} [7:33 PM]
+I get an error internet disconnected when I try to go offline
+
+thenewmona {FEND}Michigan [7:34 PM]
+I am totally lost now, three different computers, three different browsers , two different user, all different errors
+I am going to reboot my system real quick hopefully I will get an accurate picture of what is going on
+thanks
+
+JZerman {FEND} [7:39 PM]
+I reloaded everything and errors are gone on service worker. no errors on either page. I'm going to try offline. That maybe the only thing not working
+EVERYTHINGS WORKING.....OFFLINE TOO
+
+thenewmona {FEND}Michigan [7:41 PM]
+great something is working in my favor :slightly_smiling_face:
+I rebooted my system, but I am still not seeing the changes that I made in the CSS
+
+JZerman {FEND} [7:42 PM]
+It must be just finicky for some reason....put those media queries back in and submit it
+
+thenewmona {FEND}Michigan [7:43 PM]
+I am still having issues with my responsiveness, I committed them out to rule them out as the culprit for issues
+
+JZerman {FEND} [7:43 PM]
+The only thing running over on dev tools responsive is the heading. I don't know why they said to change the font on the nav bar
+
+thenewmona {FEND}Michigan [7:44 PM]
+There is a lot of horizontal scroll on both of the pages of your application. Which we have to remove from the application.
+
+Suggestions:-
+Try to adjust the font-size of anchor tag in your navbar and width of the footer in both the pages:smiley:
+this is what he/she said
+my changes are finally showing up, not sure what I did LOL
+
+JZerman {FEND} [7:45 PM]
+I just opened the folder. I just spun up the server and never opened it in VSCode
+is the scroll gone?
+
+thenewmona {FEND}Michigan [7:46 PM]
+when I run an audit, this is what the audit says
+Content is not sized correctly for the viewport
+The viewport size is 583px, whereas the window size is 412px.
+lol I have two font sizes for  the nav h1 a
+
+JZerman {FEND} [7:49 PM]
+one would override the other :grinning:
+
+thenewmona {FEND}Michigan [7:50 PM]
+yeah just fixed that, now the footer, then I will commit and push so you can see what it looks like on your end
+thank you so much
+I see what they are talking about now, just trying to figure out how to fix it
+https://snag.gy/Xuzx7L.jpg
+
+
+JZerman {FEND} [8:10 PM]
+some of those CSS files may be overlapping.....That's what I'm wondering
+
+thenewmona {FEND}Michigan [8:11 PM]
+but I am only calling one CSS file in my html
+ok, I have moved the other CSS files totally out of the project, right now I am going through each line of my CSS to make sure that I have no doubles of everything
+Message Input
+
+Message JZerman {FEND} 

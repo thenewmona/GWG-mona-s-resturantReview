@@ -140,25 +140,25 @@ nav h1 {
 }
 
 nav h1 a {
-  color: rgb(18, 17, 27);
-  font-size: 25pt;
+  color: rgb(20, 10, 43);
+  font-size: 1em;
   /*not sure if I like it that big, need to followup on this . want to change the font on this also */
   font-weight: 900;
   letter-spacing: 5px;
   text-transform: uppercase;
   font-family: 'Sofia';
-  font-size: 3em;
+  
 }
 
 #breadcrumb {
   padding: 10px 40px 16px;
   list-style: none;
   background-color: rgb(79, 64, 122);
-  font-size: 20px;
+  font-size: 2em;
   /* font-style:bold; */
   font-weight: 700;
   margin: 0;
-  width: calc(50% - 80px);
+  width: calc(50% -80px);
   /*?need to find out more about this / https://www.w3schools.com/cssref/func_calc.asp , also need to understand breadcrumb more */
 }
 
@@ -280,7 +280,7 @@ nav h1 a {
   /*change font family*/
   color: #1f1a36;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 900;
   letter-spacing: 0;
   line-height: 1.0;
@@ -461,20 +461,20 @@ nav h1 a {
 
 
 
-/* /* @media (max-width: 1024px) {
+ @media screen and (max-width: 1024px) {
 
   /*ipad */
-  /* nav {
+  nav {
     background-color: rgb(86, 76, 116);
   }
 
   #restaruants-list li {
     max-width: 100%;
   }
-} */
+}
 
 /* medium screen  */
-/* @media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   nav {
     background-color: rgb(95, 92, 139);
   }
@@ -482,10 +482,10 @@ nav h1 a {
   #restaruants-list li {
     max-width: 80%;
   }
-} */
+}
 
 /* small screen iphone */
-/* @media (max-width: 100%) {
+@media screen and (max-width: 320px) {
 
   
   nav {
@@ -499,7 +499,7 @@ nav h1 a {
   #footer {
     font-size: 8px;
     text-align: center;
-    width: 100%;
+    width: 75%;
 
   }
 
@@ -509,4 +509,4 @@ nav h1 a {
     flex-wrap: wrap;
 
   }
-}   */
+}  
